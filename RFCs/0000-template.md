@@ -23,8 +23,7 @@ Real-time analytics: The City of Chicago has developed the application "WindyGri
 
 # Detailed design
 
-Chat messages and chat input are integrated into the user profile, when the user has completed username and password upon login the server queries the database to verify that this data is correct (front-end needs support from authentication team). After this validation the user can start sending messages in the chat room with other users online, and that chat room is implemented with node.js mainly with the websocket protocol where the user information and password is stored in the database and the server opens a socket port to start listening to the client’s connection, 
-then the client’s browser establishes a socket connection.
+Chat messages and chat input are integrated into the user profile, when the user has completed username and password upon login the server queries the database to verify that this data is correct (front-end needs support from authentication team). After this validation the user can start sending messages in the chat room with other users online, and that chat room is implemented with node.js mainly with the websocket protocol where the user information and password is stored in the database and the server opens a socket port to start listening to the client’s connection, then the client’s browser establishes a socket connection.
 
 # Drawbacks
 
